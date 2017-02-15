@@ -13,6 +13,8 @@
 		36378E791E54D632008222D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36378E781E54D632008222D9 /* Assets.xcassets */; };
 		36378E7C1E54D632008222D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36378E7A1E54D632008222D9 /* LaunchScreen.storyboard */; };
 		36378E871E54D632008222D9 /* tddTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36378E861E54D632008222D9 /* tddTests.swift */; };
+		36378E921E54D65B008222D9 /* countVovels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36378E911E54D65B008222D9 /* countVovels.swift */; };
+		36378E941E54D6AF008222D9 /* testCountVovels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36378E931E54D6AF008222D9 /* testCountVovels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		36378E821E54D632008222D9 /* tddTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tddTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36378E861E54D632008222D9 /* tddTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tddTests.swift; sourceTree = "<group>"; };
 		36378E881E54D632008222D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36378E911E54D65B008222D9 /* countVovels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = countVovels.swift; sourceTree = "<group>"; };
+		36378E931E54D6AF008222D9 /* testCountVovels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testCountVovels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				36378E711E54D632008222D9 /* AppDelegate.swift */,
 				36378E731E54D632008222D9 /* ViewController.swift */,
+				36378E911E54D65B008222D9 /* countVovels.swift */,
 				36378E751E54D632008222D9 /* Main.storyboard */,
 				36378E781E54D632008222D9 /* Assets.xcassets */,
 				36378E7A1E54D632008222D9 /* LaunchScreen.storyboard */,
@@ -92,6 +97,7 @@
 			children = (
 				36378E861E54D632008222D9 /* tddTests.swift */,
 				36378E881E54D632008222D9 /* Info.plist */,
+				36378E931E54D6AF008222D9 /* testCountVovels.swift */,
 			);
 			path = tddTests;
 			sourceTree = "<group>";
@@ -203,6 +209,7 @@
 			files = (
 				36378E741E54D632008222D9 /* ViewController.swift in Sources */,
 				36378E721E54D632008222D9 /* AppDelegate.swift in Sources */,
+				36378E921E54D65B008222D9 /* countVovels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36378E941E54D6AF008222D9 /* testCountVovels.swift in Sources */,
 				36378E871E54D632008222D9 /* tddTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,48 @@
+//
+//  testCountVovels.swift
+//  tdd
+//
+//  Created by Syed Askari on 15/02/2017.
+//  Copyright © 2017 Syed Askari. All rights reserved.
+//
+
+import XCTest
+@testable import tdd
+
+class testCountVovels: XCTestCase {
+    
+    override func setUp() {
+        super.setUp()
+        // Put setup code here. This method is called before the invocation of each test method in the class.
+    }
+    
+    override func tearDown() {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        super.tearDown()
+    }
+    
+    func testExample() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func testPerformanceExample() {
+        // This is an example of a performance test case.
+        self.measure {
+            // Put the code you want to measure the time of here.
+        }
+    }
+    
+    // MARK: Defining my own tests
+    func testCountVovels() {
+        let cv = CountVovels()
+        
+        let string = "Dominik"
+        
+        let numberOfVovels = cv.countVovels(in: string)
+        
+        XCTAssertEqual(numberOfVovels, 3, "there should be 3 (three) vovels in Dominik")
+        
+    }
+    
+}
